@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-labelledby="title">
+  <title id="title">Useful objects in a sunlit room</title>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e9eadf"/><stop offset="1" stop-color="#c9d5c4"/></linearGradient>
+    <linearGradient id="sun" x2="1" y2="1"><stop stop-color="#f4df9b" stop-opacity=".8"/><stop offset="1" stop-color="#f4df9b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="table" x2="0" y2="1"><stop stop-color="#aa7955"/><stop offset="1" stop-color="#805637"/></linearGradient>
+  </defs>
+  <rect width="900" height="1000" fill="url(#wall)"/>
+  <path d="M0 0h900v290H0z" fill="#f0eee3"/>
+  <path d="M74 0h244v294H74z" fill="#b6c7b5"/>
+  <path d="M95 0v284m94-284v284m94-284v284M74 136h244" stroke="#e7e8dc" stroke-width="11" opacity=".9"/>
+  <path d="M0 206 417 0h192L192 431H0z" fill="url(#sun)"/>
+  <path d="M0 676h900v324H0z" fill="#b6b59d"/>
+  <path d="M81 618h744v47H81z" fill="url(#table)"/>
+  <path d="M129 665h31v270h-31zm608 0h31v270h-31z" fill="#765138"/>
+  <path d="M194 594h125v22H194z" fill="#f4f0e3"/>
+  <rect x="207" y="478" width="99" height="116" rx="9" fill="#d8bd82"/>
+  <path d="M225 505h65M225 519h65M225 533h49M225 561h56" stroke="#987d50" stroke-width="4" opacity=".78"/>
+  <rect x="431" y="503" width="163" height="108" rx="5" fill="#365042"/>
+  <rect x="441" y="513" width="143" height="88" rx="3" fill="#d9e0cf"/>
+  <path d="M454 580c26-35 40-17 61-42s40-21 58 4v48H454z" fill="#829177"/>
+  <circle cx="508" cy="545" r="11" fill="#d6b15e"/>
+  <path d="M504 612h17v17h-17zm-22 16h62v8h-62z" fill="#765138"/>
+  <path d="M680 611V496l14-14h38l14 14v115z" fill="#bf7a59"/>
+  <path d="M685 496h55M691 487v-13h43v13" fill="none" stroke="#894f3a" stroke-width="5"/>
+  <path d="M694 534h39m-39 12h39" stroke="#dcac8e" stroke-width="3" opacity=".8"/>
+  <ellipse cx="457" cy="710" rx="325" ry="18" fill="#5b5a48" opacity=".14"/>
+  <g fill="#465947">
+    <path d="M111 623c-31-69-23-119-11-163 39 38 51 84 11 163Z"/>
+    <path d="M111 622c-7-79 8-124 35-163 18 59 9 111-35 163Z"/>
+    <path d="M108 616c-50-36-67-75-75-116 49 18 78 52 75 116Z"/>
+  </g>
+  <path d="M73 624h81l-9 29H81z" fill="#c77658"/>
+  <path d="M81 634h65" stroke="#dfaa8e" stroke-width="3"/>
+  <g opacity=".6" fill="#f7f5e8">
+    <circle cx="779" cy="190" r="3"/><circle cx="748" cy="231" r="2"/><circle cx="820" cy="270" r="3"/>
+    <circle cx="369" cy="376" r="3"/><circle cx="407" cy="335" r="2"/><circle cx="356" cy="424" r="2"/>
+  </g>
+</svg>

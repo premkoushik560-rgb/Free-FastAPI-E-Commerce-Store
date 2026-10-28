@@ -1,0 +1,232 @@
+# Build a 100% FREE E-Commerce Website Using FastAPI
+
+Create a complete, working E-Commerce application with a FastAPI backend and a responsive frontend. This is a student portfolio project, and the entire development process must use free and open-source tools.
+
+## 1. Strict Free-Only Requirements
+
+- Do not use paid APIs, paid AI services, paid templates, premium components, or paid plugins.
+- Do not require a credit card, paid subscription, or payment to run the project locally.
+- Do not use paid product-image APIs.
+- Do not require a paid database or paid hosting service.
+- Do not use Stripe, Razorpay, or other real payment gateways. Implement a simulated payment system for demonstration purposes.
+- Do not use services that require a paid plan or paid API key.
+- Do not recommend upgrading to a paid plan to complete the project.
+- Use only free and open-source libraries wherever possible.
+- Build the project so that it works on my Windows laptop using Python.
+- If an optional service has free-tier limits or requires registration, avoid it when a local alternative is available.
+- Never claim that a third-party hosting service is permanently free. Local development must remain fully functional without hosting.
+
+## 2. Free Technology Stack
+
+Backend:
+- Python
+- FastAPI
+- Uvicorn
+- SQLAlchemy
+- Pydantic
+- SQLite
+- Pytest
+- HTTPX
+
+Frontend:
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Free Google Fonts only if internet access is available; otherwise use system fonts.
+- Inline SVG icons or simple CSS icons.
+- Locally stored placeholder images or free assets that permit reuse.
+
+Authentication:
+- Password hashing with a free Python library.
+- JWT authentication using a free, open-source library.
+- Role-based authorization for customers and administrators.
+
+Development:
+- VS Code or another free code editor
+- Python virtual environment
+- Git
+- GitHub Free for source-code hosting
+- FastAPI Swagger UI at /docs
+
+## 3. Website Features
+
+Create a professional, responsive online shopping website with:
+
+1. Home page with a navigation bar, hero section, categories, featured products, and footer.
+2. Product listing page with search, filtering, sorting, and pagination.
+3. Product details page with description, price, image, and stock information.
+4. Registration and login pages.
+5. Shopping cart with quantity updates and item removal.
+6. Checkout page with shipping details and simulated payment.
+7. Order confirmation page.
+8. User profile and order history.
+9. Admin dashboard with product, category, stock, and order management.
+10. Responsive mobile and desktop layouts.
+11. Loading indicators, validation messages, and friendly error pages.
+
+All buttons and forms must work. Do not create a static-only website.
+
+## 4. Backend API
+
+Create a REST API under /api/v1.
+
+Authentication:
+- POST /api/v1/auth/register
+- POST /api/v1/auth/login
+- GET /api/v1/auth/me
+
+Products:
+- GET /api/v1/products
+- GET /api/v1/products/{product_id}
+- POST /api/v1/products
+- PUT /api/v1/products/{product_id}
+- DELETE /api/v1/products/{product_id}
+
+Categories:
+- GET /api/v1/categories
+- POST /api/v1/categories
+
+Cart:
+- GET /api/v1/cart
+- POST /api/v1/cart/items
+- PATCH /api/v1/cart/items/{item_id}
+- DELETE /api/v1/cart/items/{item_id}
+
+Orders:
+- POST /api/v1/orders
+- GET /api/v1/orders
+- GET /api/v1/orders/{order_id}
+
+Admin:
+- GET /api/v1/admin/dashboard
+- GET /api/v1/admin/orders
+- PATCH /api/v1/admin/orders/{order_id}/status
+
+Health:
+- GET /health
+
+Use appropriate HTTP status codes, JSON responses, input validation, error handling, and authorization.
+
+## 5. Free Database
+
+Use SQLite as the default database.
+
+- Automatically initialize the database during development.
+- Save users, products, categories, carts, and orders persistently.
+- Do not require a cloud database account.
+- Include a database initialization and sample-data seed script.
+- Include at least 20 sample products and 5 categories.
+- Ensure the database is not recreated every time the application restarts.
+
+## 6. Security
+
+- Hash passwords instead of storing plain-text passwords.
+- Use expiring JWT access tokens.
+- Validate all user input.
+- Protect customer information and order history.
+- Restrict admin operations to authorized administrators.
+- Never allow users to register themselves as administrators.
+- Never hard-code real secrets.
+- Store configuration in environment variables when needed.
+- Include .env.example without real credentials.
+- Do not upload secrets, virtual environments, or private data to GitHub.
+
+## 7. Free Payment Simulation
+
+Create a simulated checkout system.
+
+- Allow a user to place a demonstration order.
+- Display payment success or failure for testing.
+- Update the order status appropriately.
+- Do not collect card numbers, CVVs, or banking credentials.
+- Clearly label the feature as a simulated payment.
+- Do not connect to any external payment provider.
+
+## 8. Free Testing and Documentation
+
+Use pytest and HTTPX to test the API.
+
+Include tests for:
+- User registration and login
+- Invalid credentials
+- Product listing and details
+- Cart updates
+- Stock validation
+- Order creation
+- Authorization and administrator permissions
+- Error responses
+
+Include:
+- requirements.txt
+- README.md
+- .gitignore
+- .env.example
+- Sample database seeding script
+- Automated tests
+- Clear installation instructions
+
+FastAPI must provide:
+- Swagger UI at /docs
+- ReDoc at /redoc
+
+## 9. Project Folder Structure
+
+Create a clean project structure:
+
+ecommerce-fastapi/
+    main.py
+    database.py
+    requirements.txt
+    README.md
+    .env.example
+    .gitignore
+    models/
+    schemas/
+    routers/
+    services/
+    auth/
+    templates/
+    static/
+        css/
+        js/
+        images/
+    tests/
+
+You may improve this structure if needed, but keep the project easy for a student to understand and maintain.
+
+## 10. Run the Project for Free
+
+Provide exact Windows PowerShell commands.
+
+Create a virtual environment, install dependencies from requirements.txt, initialize the database, seed sample products, and run the application with Uvicorn.
+
+The website should work locally at http://127.0.0.1:8000.
+
+Swagger UI should work at http://127.0.0.1:8000/docs.
+
+ReDoc should work at http://127.0.0.1:8000/redoc.
+
+Do not require Replit paid features or any cloud deployment to run the application.
+
+## 11. GitHub and Deployment
+
+Prepare the project for GitHub Free.
+
+Provide instructions to:
+- Initialize Git.
+- Commit all project files.
+- Create a GitHub repository.
+- Push the code.
+- Document how to run the application locally.
+
+Hosting is optional. If a free hosting service is mentioned, verify its current limits and clearly explain that its free availability may change. Never make hosting a requirement for project completion.
+
+## 12. Final Requirements
+
+Generate the actual working project files, not just an explanation.
+
+Run the application and fix errors where the environment permits. Run automated tests and report their actual results. Ensure all core features work without paid accounts, paid APIs, or external services.
+
+At the end, provide the project structure, installation commands, local website URL, API documentation URLs, test results, and GitHub upload instructions.
+
+The project must be fully usable locally at zero software and service cost, excluding the cost of my existing computer and internet connection.

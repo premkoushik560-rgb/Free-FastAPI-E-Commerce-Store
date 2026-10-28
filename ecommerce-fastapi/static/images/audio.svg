@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680">
+  <rect width="640" height="680" fill="#e3e1d8"/><circle cx="125" cy="132" r="67" fill="#d5e96c" opacity=".72"/>
+  <ellipse cx="320" cy="533" rx="191" ry="22" fill="#59594c" opacity=".12"/>
+  <path d="M174 350v-68c0-94 64-155 146-155s146 61 146 155v68" fill="none" stroke="#425846" stroke-width="37"/>
+  <rect x="144" y="314" width="89" height="162" rx="34" fill="#bc7858"/><rect x="407" y="314" width="89" height="162" rx="34" fill="#bc7858"/>
+  <rect x="158" y="331" width="58" height="129" rx="23" fill="#e3b28f"/><rect x="424" y="331" width="58" height="129" rx="23" fill="#e3b28f"/>
+  <path d="M178 366h20m228 0h20" stroke="#805139" stroke-width="5" stroke-linecap="round"/>
+  <text x="320" y="574" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#596252">LISTEN / CLOSELY</text>
+</svg>

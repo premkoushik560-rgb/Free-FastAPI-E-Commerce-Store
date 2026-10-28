@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680">
+  <rect width="640" height="680" fill="#e2e7de"/><circle cx="496" cy="126" r="76" fill="#e9d28e" opacity=".75"/>
+  <ellipse cx="325" cy="535" rx="136" ry="21" fill="#5c6254" opacity=".12"/>
+  <path d="M270 160h111v64l27 32v256q0 31-32 31h-101q-32 0-32-31V256l27-32z" fill="#536b58"/>
+  <path d="M282 165h87v32h-87z" fill="#bf815e"/><path d="M268 292h116v178H268z" fill="#dbe1d3"/>
+  <path d="M281 330h89m-89 17h63" stroke="#7e8e76" stroke-width="4" stroke-linecap="round"/>
+  <path d="M284 240v41m90-41v41" stroke="#789078" stroke-width="4"/>
+  <text x="326" y="574" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#596252">EVERYDAY / WATER</text>
+</svg>

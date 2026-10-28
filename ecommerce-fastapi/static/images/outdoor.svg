@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680">
+  <rect width="640" height="680" fill="#dce4d8"/><circle cx="485" cy="132" r="65" fill="#e8d68e"/>
+  <path d="M0 435 162 219l114 155 117-214 247 275v245H0z" fill="#83957e"/><path d="m162 219 60 82-60-22-53 42zM393 160l72 127-74-32-61 38z" fill="#edf0df"/>
+  <path d="M0 487c170-68 392-31 640-94v287H0z" fill="#b8c5a5"/>
+  <path d="M174 515 321 337l146 178z" fill="#c07b5a"/><path d="M238 515V414l83-77 83 77v101z" fill="#e4bd83"/>
+  <path d="M294 515v-61q0-28 27-28t27 28v61" fill="#526651"/>
+  <text x="320" y="594" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#455442">OUTSIDE / OFTEN</text>
+</svg>

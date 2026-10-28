@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680">
+  <rect width="640" height="680" fill="#e4e5db"/>
+  <circle cx="520" cy="105" r="78" fill="#d5e96c" opacity=".65"/>
+  <path d="M0 516c160-38 379-16 640-64v228H0z" fill="#d1d2c3"/>
+  <rect x="90" y="225" width="450" height="240" rx="12" fill="#b9c6b4"/>
+  <path d="M119 257h392v177H119z" fill="#e8e7dc"/>
+  <path d="M172 294h125v105H172z" fill="#c47c5d"/>
+  <path d="M330 294h123v105H330z" fill="#486452"/>
+  <path d="M189 318h92m-92 17h72m-72 17h80" stroke="#e5baa0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="391" cy="345" r="38" fill="#d7c289"/>
+  <path d="M366 372h50" stroke="#826c49" stroke-width="6"/>
+  <text x="320" y="574" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" letter-spacing="4" fill="#53604f">NORTHSTAR / OBJECT</text>
+</svg>

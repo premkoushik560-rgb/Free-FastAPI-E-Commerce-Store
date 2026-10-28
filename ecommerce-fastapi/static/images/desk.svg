@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 680">
+  <rect width="640" height="680" fill="#e6e4d9"/><path d="M0 494h640v186H0z" fill="#b99772"/>
+  <circle cx="485" cy="134" r="75" fill="#e8d38d" opacity=".8"/><rect x="95" y="194" width="450" height="274" rx="5" fill="#d2d9cc"/>
+  <path d="M127 225h387v211H127z" fill="#ebe8dd"/><path d="M167 379h156v35H167z" fill="#4c6452"/><path d="M170 404v43m148-43v43" stroke="#384a3d" stroke-width="10"/>
+  <path d="M391 343h69l-9-90h-53z" fill="#c97d5e"/><path d="M400 267h51" stroke="#e9b89c" stroke-width="5"/>
+  <path d="m353 290 15-88 14 88" fill="#d3bd84"/><path d="M359 264h17" stroke="#7a6647" stroke-width="3"/>
+  <text x="320" y="574" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" fill="#596252">DESK / STUDIO</text>
+</svg>
